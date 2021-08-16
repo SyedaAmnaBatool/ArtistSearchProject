@@ -1,0 +1,40 @@
+#heading {
+	color: #d95514;
+	font-family: fantasy;
+	text-align: center;
+}
+	.eventcard {
+		padding: 5%;
+		border-radius: 20px;
+		background-color: #d95514;
+		margin : 5%;
+	}
+
+	#search_items, #result {
+		text-align: center;
+		padding-top: 5%;
+	}
+
+	#result {
+		padding-bottom: 5%;
+	}
+
+	#search_input {
+		height: 5%;
+	}
+
+	.buttons{
+		background: black;
+	}
+
+	 .buttons:hover{
+		background: #d95514;
+	}
+
+	#event_button {
+		width: 20%;
+		height: 35px;
+		color: white;
+	}
+
+
