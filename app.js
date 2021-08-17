@@ -7,7 +7,7 @@ const port = process.env.PORT || "8000";
 app.use(express.static('assets'));
 
 app.get("/", (req, res) => {
-res.sendFile("C:/Users/Haier/Downloads/Artist Search Assignment/index.html");
+res.sendFile("index.html", { root: "." });
 });
 
 
