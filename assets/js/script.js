@@ -36,7 +36,7 @@
 			document.getElementById('search-result').innerHTML = "<h1>Search Results for '"+ text+"' </h1>";
 		
 			$.getJSON("https://rest.bandsintown.com/artists/"+ text + "?app_id=abc", function(data){
-				if (data!= null){
+				if (data.length != 0 || Object.keys(data).length != 0){
 					//if artist exists, store image and url
 					img_url = data.thumb_url;
 					events_count = data.upcoming_event_count;
